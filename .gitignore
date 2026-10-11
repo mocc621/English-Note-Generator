@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 本地缓存：自动生成，不该提交（每个人跑出来的都不一样）----
+dict_cache.json
+auto_tr_cache.json
+translation_memory.json
+
+# ---- 个人设置：可能含 API 密钥，绝对不要提交 ----
+config.json
+
+# ---- 随手生成的笔记：属于个人资料，不该进仓库 ----
+# 需要示例的话，单独放一个 demo/ 目录并只提交 1 个文件
+导出的笔记/
+生词本/
+
+# ---- 提交用的压缩包 ----
+*.zip
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
